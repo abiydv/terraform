@@ -1,7 +1,7 @@
 provider "aws" {
    alias                   = "${var.environment}"
    profile                 = "${var.environment}"
-   shared_credentials_file = "$HOME/.aws/credentials"
+   shared_credentials_file = "$HOME/.aws/credentials" ## Needs aws cli configured. Please check readme.md
    region                  = "${var.aws_region}"
 }
 
