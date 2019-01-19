@@ -5,14 +5,14 @@ Use this to create a ECS (Fargate) cluster on AWS.
 ## Prerequisites
 While this module creates most of the resources ECS needs, there are a few resources it expects to exist.
 Following must exist in the account - 
- - VPC with 2 public and 2 private subnets tagged Tier:Public, Tier:Private 
+ - VPC with 2 public and 2 private subnets tagged Tier:Public, Tier:Private (can be created using cloudformation template [vpc-stack](https://github.com/abiydv/cloudformation/tree/master/vpc))
  - ACM certificate for the Load balancer 443 listener
  - ECR Repository (can be created using [ecr](https://github.com/abiydv/terraform/tree/master/ecr) module)
  - An IMAGE:TAG combination in the ECR repository
 
 ## How to use
 
-Checkout the repository, modify the values as indicated in the files, and execute the base template first create a S3 backend
+Checkout the repository, modify the values as indicated in the files, and execute the base template first to create a S3 backend
 ```
 cd base
 terraform init
@@ -34,7 +34,10 @@ terraform plan
 terraform apply
 ```
 
+## Alternative
+You could also create the same set of resources using Cloudformation, if you prefer. Take a look at [this](https://github.com/abiydv/cloudformation/tree/master/ecs)
 
+## Contact
 Drop me a note or open an issue if something doesn't work out. 
 
 Cheers! :thumbsup:
