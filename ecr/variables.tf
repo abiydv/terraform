@@ -1,6 +1,7 @@
 variable "aws_region" {
   type        = "string"
   description = "AWS Region to use"
+  default     = "us-east-1"     # Replace with AWS region of your choice
 }
 
 variable "aws_account_id" {
