@@ -1,4 +1,4 @@
-# Terraform [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8d1372eabf874e0f922bb41508862cb6)](https://www.codacy.com/app/abi5090/terraform?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=abiydv/terraform&amp;utm_campaign=Badge_Grade)
+# Terraform 
 Terraform examples and modules
 
 ## Prerequisites
