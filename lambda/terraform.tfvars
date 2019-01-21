@@ -1,0 +1,13 @@
+assume_role_policy   = "assume-role-policy.json"
+role_policy          = "role-policy.json"
+target_input_json    = "event-input.json"
+role                 = "App Server"
+retention            = 90
+backup_rate          = "rate(3 hours)"
+backup_enabled       = "true"
+cleanup_rate         = "rate(1 day)"
+cleanup_enabled      = "true"
+aws_region           = "us-east-1"
+aws_profile          = "production"
+environment          = "production"
+team_email           = "team@example.com"

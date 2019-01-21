@@ -30,3 +30,7 @@ To create an AWS ECR repo, for use with the AWS ECS cluster. For details, please
 
 ### [AWS ECS](./ecs)
 To create a ECS Fargate cluster with auto-scaling, application load balancer and other related resources. For details, please refer to the readme in the sub-directory.
+
+### [AWS Lambda](./lambda)
+To create Lambda functions for taking periodic snapshots of suitably tagged EBS volumes. Also cleans up snapshots older than 90 days. This module is useful for deploying the lambda function and the resources it needs to function. The source code for lambda is in my other repo [here](https://github.com/abiydv/python/tree/master/ebs-snapshot-backup).
+<br> Uses modules/ and templates/
