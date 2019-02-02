@@ -1,4 +1,10 @@
 # AWS Lambda Functions
+![terraform](https://github.com/abiydv/ref-docs/blob/master/images/logos/terraform_small.png)
+![lambda](https://github.com/abiydv/ref-docs/blob/master/images/logos/aws-lambda_small.png)
+![sns](https://github.com/abiydv/ref-docs/blob/master/images/logos/aws-sns_small.png)
+![events](https://github.com/abiydv/ref-docs/blob/master/images/logos/aws-cwevent_small.png)
+![iamrole](https://github.com/abiydv/ref-docs/blob/master/images/logos/aws-iamrole_small.png)
+
 Use these templates to create Lambda functions for snapshot backup and cleanup stratergy. This is not configured to use S3 backend.
 
 ## Prerequisites

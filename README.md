@@ -1,5 +1,6 @@
-# Terraform 
-Terraform examples and modules
+# Terraform ![terraform](https://github.com/abiydv/ref-docs/blob/master/images/logos/terraform_logo.png)
+
+ Terraform examples and modules
 
 ## Prerequisites
 Configure AWS Cli access for all the AWS accounts you want to work with. You can skip this if you want to create the stacks from the Cloudformation console.
@@ -25,10 +26,10 @@ prod
 ### [Base](./base)
 To create a S3 bucket for use as Terraform remote backend. Execute this first, to setup the resources that are required for using the S3 backend. For details, please refer to the readme in the sub-directory.
 
-### [AWS ECR](./ecr)
+### [AWS ECR](./ecr) 
 To create an AWS ECR repo, for use with the AWS ECS cluster. For details, please refer to the readme in the sub-directory.
 
-### [AWS ECS](./ecs)
+### [AWS ECS](./ecs) 
 To create a ECS Fargate cluster with auto-scaling, application load balancer and other related resources. For details, please refer to the readme in the sub-directory.
 
 ### [AWS Lambda](./lambda)
