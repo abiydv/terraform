@@ -9,6 +9,9 @@
 
 Use this Terraform template to create a AWS ECS cluster (Fargate). Along with ECS, it also creates some other resources the ECS cluster needs, like - elastic load balancer, auto-scaling policies, cloudwatch alarms, route 53 entries etc.
 
+## Architecture
+A simplified view of the architecture is as follows - 
+![arch](https://github.com/abiydv/ref-docs/blob/master/images/arch/ARCH_GH.png)
 
 ## Prerequisites
 While this module creates most of the resources ECS needs, there are a few resources it expects to exist.
